@@ -1,0 +1,353 @@
+:root{
+    --colorPrimary: #2196F3;
+}
+body{
+    color: #000;
+}
+header{
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #fff;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px; 
+}
+.menu{
+    width: 145px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #fff;
+}
+ul{
+    list-style: none;
+}
+.link1{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    top: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+    letter-spacing: 3%;
+    color: #2196F3;
+}
+.link2{
+    position: absolute;
+    width: 49px;
+    height: 16px;
+    top: 32px;
+    left: 453px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.link3{
+    position: absolute;
+    width: 65px;
+    height: 16px;
+    top: 32px;
+    left: 552px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.link4{
+    position: absolute;
+    width: 59px;
+    height: 16px;
+    top: 32px;
+    left: 679px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.mail{
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    top: 32px;
+    left: 1078px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.phone{
+    position: absolute;
+    width: 118px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #757575;
+}
+:hover{
+    color: var(--colorPrimary)
+}
+.buttonall{
+    position: absolute;
+    width: 73px;
+    height: 38px;
+    left: 491px;
+    top: 197px;
+    background: #F5F4FA;
+    border-radius: 4%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.buttonweb{
+    position: absolute;
+    width: 123px;
+    height: 38px;
+    left: 575px;
+    right: 361px;
+    top: 197px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.buttonapp{
+    position: absolute;
+    width: 145px;
+    height: 38px;
+    left: 708px;
+    top: 197px;
+    background: #F5F4FA;
+    border-radius: 4%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.buttondis{
+    position: absolute;
+    width: 103px;
+    height: 38px;
+    left: 861px;
+    top: 197px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.buttonmark{
+    position: absolute;
+    width: 130px;
+    height: 38px;
+    left: 972px;
+    top: 197px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.gallery-img{
+    width: 0%;
+}
+.gallery-item1{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 207px;
+    top: 280px;
+}
+h4{
+    width: 322px;
+    height: 36px;
+    left: 233px;
+    top: 1467px;
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121
+}
+p{
+    width: 370px;
+    height: 294px;
+    top: 88px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575
+}
+.gallery-item2{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 610px;
+    top: 280px;
+}
+.gallery-item3{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1010px;
+    top: 280px;
+}
+.gallery-item4{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 200px;
+    top: 710px;
+}
+.gallery-item5{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 600px;
+    top: 710px;
+}
+.gallery-item6{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1020px;
+    top: 710px;
+}
+.gallery-item7{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 200px;
+    top: 1200px;
+}
+.gallery-item8{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 600px;
+    top: 1200px;
+}
+.gallery-item9{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1010px;
+    top: 1200px;
+}
+.imgbottom{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: -6px;
+    top: 1635px;
+}
+.link1b{
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 209px;
+    top: 1695px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+}
+.adress{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 209px;
+    top: 1737px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: aliceblue;
+}
+.linkb{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2245px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.phoneb{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2268px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
